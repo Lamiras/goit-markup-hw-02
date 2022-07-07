@@ -10,11 +10,14 @@
   --light-bg-cl: #f5f4fa;
   --blue-bt-cl: #2196f3;
   /* other */
+--nav-st-cl:#212121;
 }
 body {
   font-family: var(--main-font);
   font-size: 14px;
   color: var(--main-txt-cl);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .logo-header {
   color: #000000;
@@ -27,31 +30,39 @@ body {
 }
 .link {
   text-decoration: none;
+
 }
 .list {
   list-style: none;
 }
-.nav-act {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #2196f3;
+.header {
+    font-weight: 500;
+    line-height:1.14;
+    letter-spacing: 0.02;
+    color: #212121;
+}
+.nav{
+    color:var(--nav-st-cl)
+}
+.nav-link {
+    
+    
 }
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #188ce8;
     color: #FFFFFF;
 }
-.nav-act:hover,
-.nav-act:focus,
-.nav:hover,
-.nav:focus,
-.phone:hover,
-.phone:focus,
+.nav-link:hover,
+.nav-link:focus,
+.conact-link:hover,
+.conact-link:focus,
 .local:hover,
 .local:focus,
 .contact:hover,
-.contact:focus{
+.contact:focus,
+.currrent
+{
     color: #2196f3;
   }
 .nav-button:hover,
