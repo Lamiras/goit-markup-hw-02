@@ -43,7 +43,8 @@ body {
 .nav {
   color: var(--nav-st-cl);
 }
-.nav-link.currrent{
+.nav-link.current
+{
   color:var(--blue-bt-cl);
 }
 .hero-btn:hover,
@@ -53,8 +54,8 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus,
-.conact-link:hover,
-.conact-link:focus,
+.contact-link:hover,
+.contact-link:focus,
 .local:hover,
 .local:focus,
 .adress-link:hover,
@@ -141,6 +142,7 @@ body {
 }
 .adress {
   font-size: inherit;
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
 .local {
