@@ -63,13 +63,7 @@ body {
 .currrent {
   color: #2196f3;
 }
-.filter-button:hover,
-.filter-button:focus,
-.filter-bt:hover,
-.filter-bt:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-}
+
 .logo {
   font-family: var(--second-font);
   font-style: normal;
@@ -148,23 +142,21 @@ body {
 .local {
   color: #ffffff;
 }
-.filter-button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  border-radius: 4px;
-  background-color: #2196f3;
-}
 .filter-bt {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
   border-radius: 4px;
-  color: #212121;
-  background-color: #f5f4fa;
+  background-color: #F5F4FA;
+}
+.active { 
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.filter-bt:hover,
+.filter-bt:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .portfolio-title {
   font-family: 'Roboto';
